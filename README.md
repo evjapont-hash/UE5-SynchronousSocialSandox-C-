@@ -1,12 +1,12 @@
-### UE5 C++ Synchronous Social Sandbox
+# UE5 C++ Synchronous Social Sandbox
 
-# Overview
+## Overview
 
 A server-authoritative multiplayer lobby prototype built in Unreal Engine 5 to demonstrate synchronous networked interactions, client-server state reconciliation, and applied 3D vector math.
 
 This project was built to test custom C++ character controllers and replicate physical interactions across a dedicated Listen Server environment.
 
-# Key Features
+## Key Features
 
 - Server-Authoritative Architecture: Custom C++ implementation of Server RPCs (Remote Procedure Calls) to validate client inputs and prevent local manipulation.
 
@@ -14,10 +14,14 @@ This project was built to test custom C++ character controllers and replicate ph
 
 - Synchronous State Replication: Leverages UE5's built-in networking framework to replicate character states and math validations synchronously across multiple connected clients.
 
-# Tech Stack
+## Tech Stack
 
 - Engine: Unreal Engine 5.4
 
 - Language: C++
 
 - Networking: UE5 Listen Server / RPCs
+
+## Demonstration
+
+<img width="947" height="659" alt="Screenshot 2026-10-15 140058" src="https://github.com/user-attachments/assets/378d4a87-036a-43e9-9257-9df123cc5ed2" />
